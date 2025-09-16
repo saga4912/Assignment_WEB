@@ -1,0 +1,30 @@
+{
+  "name": "htmega/tab-content",
+  "category": "htmega-blocks",
+  "keywords": [ "tab content", "htmega", "ht mega", "widget" ],
+  "title": "Tab Pane",
+  "description": "Display content within tabs for a clean and organized layout.",
+  "parent": [
+    "htmega/tab"
+  ],
+  "attributes": {
+    "blockUniqId": {
+      "type": "string"
+    },
+    "parentId": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number",
+      "default": 0
+    },
+    "tabActive": {
+      "type": "number",
+      "default": 0
+    },
+    "activeTab": {
+      "type": "number",
+      "default": 0
+    }
+  }
+}

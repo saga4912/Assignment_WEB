@@ -1,0 +1,14 @@
+/* Base variable for fill color */
+.template-preview * {
+    --fill-color: #3498db;
+}
+
+/* Template-specific color rules */
+.classic-loader_preloader-template div{
+    background: var(--fill-color) !important; 
+}
+
+.infinity-loader_preloader-template:before,
+.infinity-loader_preloader-template:after{
+    border-color: var(--fill-color) !important;
+}

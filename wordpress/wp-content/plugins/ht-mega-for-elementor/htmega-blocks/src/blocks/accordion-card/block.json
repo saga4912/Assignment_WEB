@@ -1,0 +1,35 @@
+{
+  "name": "htmega/accordion-card",
+  "category": "htmega-blocks",
+  "keywords": [ "accordion", "htmega", "ht mega", "widget", "faq" ],
+  "title": "Accordion Card",
+  "description": "Present compact, expandable content in interactive accordion cards.",
+  "parent": [
+    "htmega/accordion"
+  ],
+  "attributes": {
+    "blockUniqId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "default": "Accordion Item Title Here."
+    },
+    "open": {
+      "type": "boolean",
+      "default": false
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "iconInActive": {
+      "type": "string",
+      "default": "dashicons dashicons-plus-alt2"
+    },
+    "iconActive": {
+      "type": "string",
+      "default": "dashicons dashicons-minus"
+    }
+  }
+}
